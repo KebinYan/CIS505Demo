@@ -11,6 +11,8 @@ int main(int argc, char *argv[]) {
 		std::cout << "Washington D.C." << std::endl;
 	} else if (country == "UK") {
 		std::cout << "London" << std::endl;
+	} else if (country == "China") {
+		std::cout << "Beijing" << std::endl;
 	} else {
 		std::cout << "I don't the capital for " << country << std::endl;
 	}
